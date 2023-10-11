@@ -1,0 +1,42 @@
+============================================
+
+Git tutorial
+========================
+1. 
+
+git status
+
+git add .
+
+git commit -am "commit messages"
+
+git push origin branch-name
+
+========================================
+
+2. 
+
+git pull origin branch-name
+
+===================================
+
+how to send code in another branch
+=======================================
+
+git branch
+
+git checkout design-branch // it change branch current branch to design-branch
+
+git merge dev-branch // add dev-branch code into design-branch
+
+git status
+
+git add .
+
+git commit -am "dev branch code merge"
+
+git push origin design-branch
+
+//now checkout own branch 
+
+git checkout dev-branch
